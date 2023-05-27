@@ -66,7 +66,7 @@ if uploaded_file is not None:
         col1,col2,col3,col4,col5 = st.columns(5)
 
         with col1:
-            st.print(filenames[indices[0][0]])
+            st.write(filenames[indices[0][0]])
     else:
         st.header("Some error occured in file upload")
 
