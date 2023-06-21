@@ -67,6 +67,14 @@ if uploaded_file is not None:
 
         with col1:
             st.write(filenames[indices[0][0]])
+            with col2:
+            st.image(filenames[indices[0][1]])
+        with col3:
+            st.image(filenames[indices[0][2]])
+        with col4:
+            st.image(filenames[indices[0][3]])
+        with col5:
+            st.image(filenames[indices[0][4]])
     else:
         st.header("Some error occured in file upload")
 
